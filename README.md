@@ -28,6 +28,12 @@ LearnPlaywrightBatch2x/
 │   ├── 08_Comments.js
 │   ├── js_identifier_rules.js
 │   └── VS_Code_keyboard_shortcut_windows.md
+├── Chapter_04_javaScript_Concepts/
+│   ├── 09_var_let_Const.js
+│   ├── 10_var_explain.js
+│   ├── 11_let_explain.js
+│   ├── 12_const_explain.js
+│   └── 13_hosting_var.js
 └── README.md
 ```
 
@@ -48,6 +54,13 @@ LearnPlaywrightBatch2x/
 - `08_Comments.js`: comment formats and best practices
 - `js_identifier_rules.js`: helper examples for naming rules
 - `VS_Code_keyboard_shortcut_windows.md`: editor shortcuts for faster work
+
+### Chapter 4 — JavaScript Concepts Continued
+- `09_var_let_Const.js`: differences between `var`, `let`, and `const`
+- `10_var_explain.js`: detailed `var` behavior and hoisting examples
+- `11_let_explain.js`: `let` scoping and temporal dead zone
+- `12_const_explain.js`: constant declarations and immutability notes
+- `13_hosting_var.js`: hoisting behavior for `var` declarations
 
 ## Getting started
 
