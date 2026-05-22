@@ -24,6 +24,7 @@ LearnPlaywrightBatch2x/
 ├── chapter_07_If_else/
 ├── Chapter_08_Switch/
 ├── Chapter_09_User_Input/
+├── Chapter_10_Loops/
 └── README.md
 ```
 
@@ -110,6 +111,17 @@ LearnPlaywrightBatch2x/
 - `Node_readline.js`: reading input using Node's `readline`
 - `prompt_sync.js`: synchronous prompt usage
 - `User_Input.js`: basic user input examples
+
+### Chapter 10 — Loops
+- `do_while_loop.js`: `do/while` loop examples
+- `Do_While.js`: additional `do/while` practice
+- `For_loop.js`: basic `for` loop samples
+- `For_Loop2.js`: nested and variant `for` loops
+- `for_loops_js`: `for` loop practice examples
+- `For_OF_IN_EACH.js`: `for...of`, `for...in`, and array iteration
+- `While.js`: `while` loop examples
+- `interview.js`: loop-based interview-style questions
+- `IQ.js`: loop practice and quiz examples
 
 ## Getting started
 
