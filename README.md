@@ -25,6 +25,7 @@ LearnPlaywrightBatch2x/
 ├── Chapter_08_Switch/
 ├── Chapter_09_User_Input/
 ├── Chapter_10_Loops/
+├── Chapter_11_Array/
 └── README.md
 ```
 
@@ -122,6 +123,17 @@ LearnPlaywrightBatch2x/
 - `While.js`: `while` loop examples
 - `interview.js`: loop-based interview-style questions
 - `IQ.js`: loop practice and quiz examples
+
+### Chapter 11 — Arrays
+- `Access_Array.js`: accessing array elements and basic indexing
+- `array_splice.js`: examples using `splice()` for insertion/removal
+- `Arrays_push_pop_sift_unshift.js`: push/pop and shift/unshift examples
+- `Arrays.js`: assorted array examples and notes
+- `Basic_Array.js`: array creation and common operations
+- `Iterate.js`: iterating arrays with loops and iterator helpers
+- `Real_Example.js`: practical array-based examples
+- `Searching.js`: array searching techniques and pitfalls
+- `Traform_Arrray.js`: transforming arrays with map/filter/reduce (note: filename contains a typo)
 
 ## Getting started
 
