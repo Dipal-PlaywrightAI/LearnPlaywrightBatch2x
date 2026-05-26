@@ -133,7 +133,7 @@ LearnPlaywrightBatch2x/
 - `Iterate.js`: iterating arrays with loops and iterator helpers
 - `Real_Example.js`: practical array-based examples
 - `Searching.js`: array searching techniques and pitfalls
-- `Traform_Arrray.js`: transforming arrays with map/filter/reduce (note: filename contains a typo)
+- `Transform_Array.js`: transforming arrays with map/filter/reduce
 
 ## Getting started
 
