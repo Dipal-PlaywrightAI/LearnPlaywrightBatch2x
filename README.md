@@ -26,6 +26,8 @@ LearnPlaywrightBatch2x/
 ├── Chapter_09_User_Input/
 ├── Chapter_10_Loops/
 ├── Chapter_11_Array/
+├── Chapter_12_Functions/
+├── Chapter_13_String/
 └── README.md
 ```
 
@@ -135,6 +137,35 @@ LearnPlaywrightBatch2x/
 - `Searching.js`: array searching techniques and pitfalls
 - `Transform_Array.js`: transforming arrays with map/filter/reduce
 
+### Chapter 12 — Functions
+- `API_REAL_Closure.js`: real-world closure patterns and API examples
+- `Arrow_Fn.js`: arrow function syntax and basics
+- `Arrow_Fn_REAL.js`: practical arrow function examples
+- `Closure.js`: function closures and lexical scoping
+- `Default_Param_Fn.js`: default parameter values
+- `Fn_Expression.js`: function expressions vs declarations
+- `Functions.js`: assorted function examples and patterns
+- `Higher_Order_Fn.js`: functions that return or accept functions
+- `IIFE.js`: Immediately Invoked Function Expressions
+- `IQ!.js`, `IQ.js`, `IQ1.js`: function practice and quiz examples
+- `Pure_Fn.js`: pure functions and side effects
+- `Rest_Param_Fn.js`: rest parameters and variable argument handling
+- `Scope._Fn.js`: function scope and variable scope rules
+- `Spead_IQ.js`: spread operator practice
+- `Template_literal.js`: template literals in function context
+- `Type1_Fn_Basic_Functions.js`: basic function declarations
+- `Type2_Fn_With_Param_No_Return.js`: functions with parameters, no return
+- `Type3_Fn_without_Param_Return_Type.js`: functions with return, no parameters
+- `Type4_Fn_With_Param_With_Return.js`: functions with both parameters and return
+
+### Chapter 13 — String Methods & Manipulation
+- `String.js`: basic string creation and properties
+- `String_Conversion.js`: converting values to strings
+- `String_Properties.js`: string length and character access
+- `Substrings.js`: extracting portions of strings with `substr()`, `substring()`, `slice()`
+- `Transform.js`: string transformation methods (`toUpperCase()`, `toLowerCase()`, `trim()`, `replace()`, `replaceAll()`)
+- `Search_checking.js`: searching within strings with `indexOf()`, `includes()`, and pattern matching
+
 ## Getting started
 
 ### Prerequisites
@@ -169,7 +200,7 @@ Hello The Testing Academy
 
 ## Future chapters
 
-- More JavaScript concepts and examples
+- More JavaScript concepts and examples (Object, Prototypes, Async/Await)
 - TypeScript basics and typed code examples
 - Playwright test setup and automation examples
 - Practical exercises for SDET skills
