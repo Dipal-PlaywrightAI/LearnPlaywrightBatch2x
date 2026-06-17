@@ -16,4 +16,5 @@ console.log(url.indexOf("nowher"))//it return -1 bcz it is not exist here
 
 //searching
 console.log(url.search(/star/));//regex
-console.log(url.search(/login/));
+console.log(url.search(/login/));//regex //-1 bcz this is not avilable
+//regex is pattern 

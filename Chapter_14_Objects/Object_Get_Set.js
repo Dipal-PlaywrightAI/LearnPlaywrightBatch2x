@@ -24,4 +24,4 @@ console.log(user.fullName);
 //     fullName(){
 
 //     }
-// }
+// }    

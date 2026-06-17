@@ -2,7 +2,6 @@
  * 
  * UNDEFINED:
  * - A variable that has been declared but has not been assigned a value
- * - It is the default return value of a function if no return statement is provided
  * - JavaScript automatically assigns "undefined" when something is missing
  * 
  * NULL:

@@ -18,6 +18,6 @@ tests.forEach((i, index) => {
 });
 
 let students = ["AV", "Dv", "CP"]
-for (let staudent in staudents) {
+for (let student in staudents) {
     console.log(staudent, " ->", staudents[staudent]); //index=in
 }

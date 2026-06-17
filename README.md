@@ -1,14 +1,15 @@
 # LearnPlaywrightBatch2x
 
-A personal JavaScript learning repository built around early Playwright preparation.
+A personal JavaScript learning repository built around Playwright automation and TypeScript practice.
 
 This project captures a step-by-step JavaScript learning path, organized by chapter so each topic is easy to explore and run.
 
 ## Why this repo
 
 - Practice JavaScript with clear, chapter-based examples
+- Learn Playwright automation using TypeScript
 - Verify your Node.js environment and platform details
-- Build an understanding of identifiers, values, operators, and control flow
+- Build a strong foundation in core JavaScript concepts
 - Keep learning progress organized as the project grows
 
 ## Current structure
@@ -28,6 +29,15 @@ LearnPlaywrightBatch2x/
 ├── Chapter_11_Array/
 ├── Chapter_12_Functions/
 ├── Chapter_13_String/
+├── Chapter_14_Objects/
+├── Chapter_15_2D_Array/
+├── Chapter_16_Callbacks/
+├── Chapter_17_Promiss/
+├── Chapter18_Acyncamdawait/
+├── Chapter_19_Playwright/
+├── tests/
+├── package.json
+├── tsconfig.json
 └── README.md
 ```
 
@@ -174,12 +184,46 @@ LearnPlaywrightBatch2x/
 - Git
 - VS Code or another code editor
 
-### Run the examples
+### Install dependencies
+
+From the project root:
 
 ```bash
-cd LearnPlaywrightBatch2x
+npm install
+```
+
+This installs:
+- `playwright`
+- `@playwright/test`
+- `typescript`
+- `@types/node`
+
+### Playwright setup
+
+If browsers are not yet installed, run:
+
+```bash
+npx playwright install
+```
+
+### Run the examples
+
+Run a JavaScript chapter file:
+
+```bash
 node Chapter_01_Basics/01_Basic.js
-node Chapter_09_User_Input/Challenge.js
+```
+
+Run a Playwright TypeScript test:
+
+```bash
+npx playwright test tests/exersize2.spec.ts
+```
+
+or use the package script:
+
+```bash
+npm test
 ```
 
 ### Expected output
@@ -190,19 +234,26 @@ For `01_Basic.js`, you should see:
 Hello The Testing Academy
 ```
 
+For Playwright tests, you should see a passing test summary like:
+
+```bash
+3 passed
+```
+
 ## How to use this repo
 
 1. Open the folder in VS Code.
-2. Read each chapter file and review the comments.
-3. Run the examples with Node.js.
-4. Modify code to test your understanding.
-5. Add new files as you continue learning.
+2. Read chapter files and review the comments.
+3. Run examples with Node.js.
+4. Run Playwright tests with `npm test` or `npx playwright test`.
+5. Modify code to test your understanding.
+6. Add new files as you continue learning.
 
 ## Future chapters
 
-- More JavaScript concepts and examples (Object, Prototypes, Async/Await)
+- More JavaScript concepts and examples (Objects, Prototypes, Modules)
 - TypeScript basics and typed code examples
-- Playwright test setup and automation examples
+- Playwright automation exercises and page object patterns
 - Practical exercises for SDET skills
 
 ## Notes

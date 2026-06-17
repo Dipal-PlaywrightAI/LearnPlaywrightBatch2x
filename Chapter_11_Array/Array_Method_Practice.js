@@ -91,3 +91,6 @@ console.log(grads1)
 //reduce
 let sum = scores.reduce((sum, s) => sum + s, 0)
 console.log("sum:" + sum)
+
+//sorting
+let fruits

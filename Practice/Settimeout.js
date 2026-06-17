@@ -1,6 +1,6 @@
 console.log("first testcase")
 
-setTimeout(() => {
+setTimeout(() => { //async in nature so it run after seconds 
     console.log("second testcases");
 }, 3000)
 
