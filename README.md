@@ -198,6 +198,11 @@ This installs:
 - `typescript`
 - `@types/node`
 
+### Notes
+
+- This project is configured as an ES module workspace with `"type": "module"` in `package.json`.
+- Run individual examples using `node <chapter>/<file>.js` from the repository root.
+
 ### Playwright setup
 
 If browsers are not yet installed, run:
