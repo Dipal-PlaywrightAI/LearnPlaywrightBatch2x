@@ -4,7 +4,8 @@
   "description": "A personal JavaScript learning repository built around early Playwright preparation.",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "ts": "npx ts-node"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@playwright/test": "^1.61.0",
     "@types/node": "^25.9.3",
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
 }

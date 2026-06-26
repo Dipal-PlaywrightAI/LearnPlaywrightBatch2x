@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
         "target": "ES2020",
-        "module": "CommonJS",
+        "module": "NodeNext",
         "lib": [
             "ES2020",
             "DOM"
         ],
         "strict": true,
         "esModuleInterop": true,
-        "moduleResolution": "node",
+        "moduleResolution": "nodenext",
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
@@ -18,7 +18,12 @@
         ]
     },
     "include": [
-        "tests/**/*.ts",
+        "Chapter_19_Playwright/tests/**/*.ts",
+        "chapter_26_Typescript/**/*.ts",
+        "chapter_27_TypeScript_Interface/**/*.ts",
         "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
     ]
 }
